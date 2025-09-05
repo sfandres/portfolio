@@ -207,7 +207,7 @@ const skills = {
     //   ],
     // },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infra-Architecture - Teaching",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -685,35 +685,73 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  // description: "Some of my published Articles, Blogs and Research.",
+  description: "Some of my published research articles.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
+      id: "ssl-small-in-domain-remote-sensing",
       name:
-        "Self-Supervised learning on small In-Domain datasets can overcome supervised learning in remote sensing",
+        "Self-Supervised Learning on Small In-Domain Datasets Can Overcome Supervised Learning in Remote Sensing",
       createdAt: "2024",
       description:
-        "Scientific article published in the IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "Research article analyzing the performance of self-supervised learning on small in-domain datasets in remote sensing; published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE).",
       url: "https://doi.org/10.1109/JSTARS.2024.3421622",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id: "federated-learning-meets-remote-sensing",
+      name: "Federated learning meets remote sensing",
+      createdAt: "2024",
+      description:
+        "Research article reviewing and systematizing federated learning methods for remote sensing; published in Expert Systems with Applications (Elsevier).",
+      url: "https://doi.org/10.1016/j.eswa.2024.124583",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "reliability-wind-turbines-power-curves-failures",
+      name:
+        "Reliability of onshore wind turbines based on linking power curves to failure and maintenance records: A case study in central Spain",
+      createdAt: "2023",
+      description:
+        "Research article linking SCADA-based power curves with failure and maintenance records to assess onshore wind turbine reliability; published in Wind Energy (Wiley).",
+      url: "https://doi.org/10.1002/we.2793",
     },
+    {
+      id: "vpp-visibility-based-path-planning-uav",
+      name:
+        "VPP: Visibility-Based Path Planning Heuristic for Monitoring Large Regions of Complex Terrain Using a UAV Onboard Camera",
+      createdAt: "2022",
+      description:
+        "Research article presenting a visibility-based path planning heuristic for UAV monitoring of complex terrain; published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE).",
+      url: "https://doi.org/10.1109/JSTARS.2021.3134948",
+    },
+    {
+      id: "sdem-viewshed-ijgis",
+      name:
+        "A Data Relocation Approach for Terrain Surface Analysis on Multi-GPU Systems: A Case Study on the Total Viewshed Problem",
+      createdAt: "2021",
+      description:
+        "Research article introducing a multi-GPU data relocation approach for solving the total viewshed problem in terrain surface analysis; published in International Journal of Geographical Information Science (Taylor & Francis).",
+      url: "https://doi.org/10.1080/13658816.2020.1844207",
+    },
+    {
+      id: "alfi-latent-fingerprint-ieee-access",
+      name:
+        "Asynchronous Processing for Latent Fingerprint Identification on Heterogeneous CPU–GPU Systems",
+      createdAt: "2020",
+      description:
+        "Research article proposing an asynchronous processing framework for latent fingerprint identification on CPU–GPU systems; published in IEEE Access (IEEE).",
+      url: "https://doi.org/10.1109/ACCESS.2020.3005476",
+    },
+    // {
+    //   id: "consistency-models",
+    //   name: "Consistency Models",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/consistency-models/",
+    // },
   ],
 };
 
