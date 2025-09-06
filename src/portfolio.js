@@ -617,9 +617,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_andres.png",
+    profile_image_path: "animated_andres_500x500.png",
     description:
-      "Reach out for research collaborations, teaching opportunities, or applied ML/AI projects.",
+      "Reach out for research collaborations, teaching opportunities, or applied ML/AI projects. Feel free to connect via LinkedIn or email by clicking the Google button below.",
   },
   blogSection: {
     title: "Research Profiles",
