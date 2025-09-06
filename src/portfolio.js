@@ -26,19 +26,19 @@ const greeting = {
     "PhD Engineer & AI practitioner focused on data science and deep learning for real-world research problems. Lecturer at UNIR. Passionate about bringing research to tech and business.",
   resumeLink:
     "https://drive.google.com/file/d/11Civ1J3MpbWPBqtTNDuy9u8TiBdJ_mVp/view?usp=sharing",
-  portfolio_repository: "https://github.com/sfandres/portfolio",
+  portfolio_repository: "https://github.com/sfandres",
   githubProfile: "https://github.com/sfandres",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
 
-  {
-    name: "Github",
-    link: "https://github.com/sfandres",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
+  // {
+  //   name: "Github",
+  //   link: "https://github.com/sfandres",
+  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  // },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/sfandres/",
@@ -443,6 +443,16 @@ const experience = {
           description:
             "Machine learning for early fault detection in wind turbines (Python, scikit-learn, SQL, clustering, classification).",
         },
+        {
+          title: "Researcher staff - PhD student",
+          company: "University of Malaga",
+          company_url: "https://www.ac.uma.es/index.html",
+          logo_path: "uma_logo.png",
+          duration: "Jan 2018 - Sep 2020",
+          location: "Malaga, Spain",
+          description:
+            "High-performance computing research (C++/CUDA). Assistant Professor for ICTs Applied to Podiatry. Three-month research stay (Sept 2018 – Dec 2018) at Ghent University / VIB for data mining and modeling for biomedicine (biometric data).",
+        },
       ],
     },
     {
@@ -458,17 +468,6 @@ const experience = {
           location: "Malaga, Spain",
           description:
             "Rover modeling in MATLAB/Simulink for space exploration simulation.",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
         },
       ],
     },
@@ -539,14 +538,12 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "Selected academic and applied projects in AI and data science",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  // description: "Some of my published Articles, Blogs and Research.",
   description: "Some of my published research articles.",
   avatar_image_path: "projects_image.svg",
 };
@@ -620,27 +617,26 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "animated_andres.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Reach out for research collaborations, teaching opportunities, or applied ML/AI projects.",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    title: "Research Profiles",
+    subtitle: "Google Scholar profile and publications.",
+    link: "https://scholar.google.es/citations?user=AYtHK3EAAAAJ",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Marbella, Andalusia, Spain",
+    locality: "Marbella",
+    country: "Spain",
+    region: "Andalusia",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/8Gphe7CTSpXhMa6E7",
   },
   phoneSection: {
     title: "",
