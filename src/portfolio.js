@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "sfandres",
   nickname: "",
   subTitle:
-    "PhD Engineer & AI practitioner focused on data science and deep learning for real-world research problems. Lecturer at UNIR. Passionate about bringing research to tech and business.",
+    "Data Scientist and AI practitioner with expertise in machine learning, deep learning, and applied research. Holds a PhD in HPC and lectures at the International University of La Rioja (UNIR). Passionate about bridging advanced research with practical impact in technology and business.",
   resumeLink:
     "https://drive.google.com/file/d/11Civ1J3MpbWPBqtTNDuy9u8TiBdJ_mVp/view?usp=sharing",
   portfolio_repository: "https://github.com/sfandres",
@@ -47,28 +47,35 @@ const socialMediaLinks = [
   },
   // {
   //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
+  //   link: "",
   //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
   //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   // },
   // {
   //   name: "X-Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
+  //   link: "",
   //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
   //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   // },
   // {
   //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   link: "",
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
+  {
+    name: "UNIR",
+    link: "https://www.unir.net/profesores/andres-jesus-sanchez-fernandez/",
+    fontAwesomeIcon: "fas fa-landmark",
+    backgroundColor: "#0080BF",
+  },
   {
     name: "Instagram",
     link: "https://www.instagram.com/sfandres94/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
+
   {
     name: "Gmail",
     link: "mailto:andres.sanchez1994@gmail.com",
